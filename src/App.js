@@ -1,5 +1,4 @@
 import './App.css';
-import Typography from '@material-ui/core/Typography';
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,10 +14,6 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        
-        <Typography style={{margin:30}} variant="h2">
-          React QR Code
-        </Typography>
       
         <Router>
           <div>
