@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@mdi/font": "^5.8.55",
+    "@mdi/js": "^5.8.55",
+    "@mdi/react": "^1.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -12,6 +15,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-qr-reader": "^2.2.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4"
   },

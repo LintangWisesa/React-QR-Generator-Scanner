@@ -8,14 +8,14 @@ A simple React application to generate & scan Quick Response code (QR code).
 
     Install Material UI core:
     ```bash
-    $ npm i @material-ui/core
+    $ npm i @material-ui/core @material-ui/icons
     ```
 
 - __Icons: [Material Design Icons](https://materialdesignicons.com/)__
 
     Install Material Design Icons:
     ```bash
-    $ npm i @mdi/font
+    $ npm i @mdi/react @mdi/js @mdi/font
     ```
 
     Add these lines on `./public/index.html` head:
