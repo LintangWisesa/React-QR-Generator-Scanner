@@ -31,13 +31,13 @@ function QRgenerator() {
             </Link>
             <span>QR Generator</span>
             
-            <div style={{marginTop:50}}>
+            <div style={{marginTop:30}}>
                 <TextField onChange={handleChange}
                 value={qr} label="QR content" size="large" variant="outlined" color="primary" 
                 />
             </div>
 
-            <div style={{marginTop:50}}>
+            <div style={{marginTop:30}}>
                 {
                     qr ?
                     <QRcode 
