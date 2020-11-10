@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Fab} from '@material-ui/core'
+import {Fab, TextareaAutosize} from '@material-ui/core'
 import {ArrowBack} from '@material-ui/icons'
 import { Link } from "react-router-dom";
 import QrScan from 'react-qr-reader'
@@ -35,8 +35,13 @@ function QRscanner() {
                 />
             </div>
             </center>
-            
-            <p style={{marginTop:100}}>{qrscan}</p>
+
+            <TextareaAutosize
+                style={{fontSize:18, width:320, height:100, marginTop:100}}
+                rowsMax={4}
+                defaultValue={qrscan}
+                value={qrscan}
+            />
 
       </div>
     );
