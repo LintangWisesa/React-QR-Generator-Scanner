@@ -37,18 +37,19 @@ function QRgenerator() {
                 />
             </div>
 
-            <div style={{marginTop:30}}>
+            <div>
                 {
                     qr ?
                     <QRcode 
                         id="myqr"
                         value={qr} 
                         size={320}
+                        includeMargin={true}
                     /> :
                     <p>No QR code preview</p>
                 }
             </div>
-            <div style={{marginTop:30}}>
+            <div>
                 {
                     qr ? 
                     <Grid container>

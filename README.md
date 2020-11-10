@@ -4,6 +4,14 @@
 
 A simple React application to generate & scan Quick Response code (QR code). 
 
+- __Clone this repo__:
+
+  ```bash
+  $ git clone https://github.com/LintangWisesa/React-QR-Scanner-Generator.git
+  $ npm i
+  $ npm start
+  ```
+
 - __React UI Kit: [Material UI](https://material-ui.com/)__
 
     Install Material UI core:
@@ -39,6 +47,20 @@ A simple React application to generate & scan Quick Response code (QR code).
     ```bash
     $ npm i react-qr-reader
     ```
+
+- __Preview__
+
+  Home Page
+
+  ![./img/Home.png](./img/Home.png)
+
+  QR Generator Page
+  
+  ![./img/QRgenerator.png](./img/QRgenerator.png)
+
+  QR Scanner Page
+  
+  ![./img/QRscanner.png](./img/QRscanner.png)
 
 <hr>
 
