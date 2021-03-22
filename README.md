@@ -4,6 +4,12 @@
 
 A simple React application to generate & scan Quick Response code (QR code). 
 
+- __Demo__:
+
+  Click the following picture to see the demo video:
+
+  [![Video](https://img.youtube.com/vi/vIXvBcrqKqg/0.jpg)](https://youtu.be/vIXvBcrqKqg)
+  
 - __Clone this repo__:
 
   ```bash
